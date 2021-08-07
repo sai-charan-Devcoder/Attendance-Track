@@ -1,0 +1,35 @@
+#main-wrapper{
+	width: 500px;
+	margin:0 auto;
+	background:white;
+	padding:5px;
+	border-radius:10px;
+	border: 2px solid #000000;
+	
+
+}
+.avatar
+{
+width:150px;
+text-align:center;
+
+}
+.myform{
+	width:600px;
+	margin: 10px;
+}
+.inputvalue{
+	width:430px;
+	margin: 0 auto;
+	padding:5px;
+}
+#login{
+	margin-top:10px;
+	background-color:#27ae60;
+	width:430px;
+	text-align:center;
+	color:white;
+	padding :5px;
+	font-size:18px;
+	font-weight:bold;
+	}

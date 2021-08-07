@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sree Chaitanya Institute Of Technological Sciences </title>
+  <link rel="shortcut icon" href="img/images (1).jpeg">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#loading{
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			background:#fff url('ajax-loader.gif') no-repeat center; 
+
+			z-index: 99999;
+		}
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+
+
+
+  </style>
+</head>
+<body onload="myFunction()">
+	<div id="loading"></div>
+<header>
+  <a name="top"></a>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ 
+  <a class="navbar-brand" href="index.html">Sree Chaitanya Institute Of Technological Sciences 
+  	<img src="img/images (1).jpeg" alt="Scits" style="width: 40px;">
+  	<p class="nav-item"><span class="navbar-text"><h6 style="color: white;">Approved by AICTE New Delhi, Affiliated to JNTUH, Hyderabad, LMD Colony,Thimmapoor, Karimagar, 5050527, TS</h6></span></p>
+  	
+  
+  </a>
+  
+  
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only ">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section1">Student Portal</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#section4">Attendance Portal</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">Gallery</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="about.html">Institution</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="developed_by.html">Developed By</a>
+        </div>
+      </li>
+      <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>-->
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="linkit">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="" id="hp"  onclick="searchit()" style="color:green;text-decoration: none;">Search</a></button>
+    </form>
+  </div>
+</nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <!--<li data-target="#demo" data-slide-to="2"></li>-->
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/homeslider.png" alt="Scits" width="1100" height="200">
+      <div class="carousel-caption">
+        <h3>Sree Chaitanya Institute Of Technological Sciences</h3>
+        
+      </div>   
+    </div>
+    <!--<div class="carousel-item">
+      <img src="homeslider 2.jpeg" alt="Scits" width="1100" height="200">
+      <div class="carousel-caption">
+        <h3>Campus</h3>
+       
+      </div>   
+    </div>-->
+    <div class="carousel-item">
+      <img src="img/homeslider 3.jpeg" alt="Scits" width="1100" height="200">
+      <div class="carousel-caption">
+        <h3>Sree Chaitanya Institute Of Technological Sciences</h3>
+        
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+</header>
+<section>
+	<div class="container-fluid">
+
+		<h1 class="text-center text-capitalize pt-5">About Us</h1>
+		<hr class="w-25 mx-auto">
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-12">
+			<img src="img/homeslider.png" class="img-fluid">
+		</div>
+
+		<div class="col-lg-6 col-md-6 col-12">
+			<p>The SREE CHAITANYA INSTITUTE OF TECHNOLOGICAL SCIENCES was established in 2008 with the setting up of the Sree Chaitanya Institute of Technological Sciences at Thimmapur, Karimnagar. Spread over 41 acres of land in the L.M.D colony area at Thimmapur, Karimnagar, and the institute is affiliated to the Jawaharlal Nehru Technological University,Hyderabad and has obtained the approval of the All India Council of Technical Education (AICTE). LMD colony offers a verdant and peaceful environment, highly conductive to education. The institutes facilities, in addition to its enormous campus, includes spacious lecture halls, laboratories housing the latest training equipment, a well-stocked library, a computer center and facilities for sports and extra-curricular activities. A highly qualified and motivated faculty ensures all support to the student community.
+
+         Sree Chaitanya Institute of Technological Sciences is an institute which provides quality education in a diverse and multi-cultural environment. It imparts state of the art training to students to make them competent and inspired engineers. The Institute not only celebrates the power of knowledge, cultivates vision and encourages new ideas, but also inculcates human values and builds up awareness about the self as well as the society around us.</p>
+
+
+		</div>
+	</div>
+	</div>
+
+</section>
+<section>
+	<div class="container">
+
+    <div id="section2"></div>
+		<h1 class="text-center text-capitalize pt-5">Gallery</h1>
+		<hr class="w-25 mx-auto">
+		<div class="row">
+			<div class="col-lg-4 col-md-2 col-12 mb-4">
+         <a href="img/homeslider 2.jpeg">
+				<img src="img/homeslider 2.jpeg" class="img-fluid">
+      </a>
+			</div>
+			<div class="col-lg-4 col-md-2 col-12 mb-4">
+        <a href="img/homeslider 3.jpeg">
+				<img src="img/homeslider 3.jpeg" class="img-fluid"></a>
+			</div>
+			<div class="col-lg-4 col-md-2 col-12 mb-4">
+        <a href="img/homeslider.png">
+				<img src="img/homeslider.png" class="img-fluid" style="height:260px;"></a>
+			</div>
+			<div class="col-lg-4 col-md-2 col-12 mb-4">
+        <a href="img/IMG_20170916_164307.jpg">
+				<img src="img/IMG_20170916_164307.jpg" class="img-fluid"></a>
+			</div>
+			<div class="col-lg-4 col-md-2 col-12 mb-4">
+        <a href="img/IMG_20170916_164321.jpg">
+				<img src="img/IMG_20170916_164321.jpg" class="img-fluid"></a>
+			</div>
+			<div class="col-lg-4 col-md-2 col-12 mb-4">
+        <a href="img/homeslider 2.jpeg">
+				<img src="img/homeslider 2.jpeg" class="img-fluid"></a>
+			</div>
+		</div>
+</section>
+<section>
+	<div class="container">
+
+    <div id="section3"></div>
+		<section class="bg-primary">
+  <article class="py-5 text-center">
+    <div id="section4">
+      <h1 class="display-4">Attendance Portal</h1>
+      <h3> Staff Login </h3>
+      <button class="btn btn-warning"><a class="nav-link" style="color:#000; padding:0px;" href="loginform.php">Click Here</a></button>
+    </div>
+  
+  </article>
+</section>
+<br />
+<section class="bg-primary">
+	<article class="py-5 text-center">
+		<div id="section1">
+			<h1 class="display-4">Student Portal</h1>
+			<h3>Student Login</h3>
+			<button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Click Here</button>
+		</div>
+			<!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Enter HallTicket No</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        	<form action="connect.php" method="POST">
+        		<div class="form-group">
+        			<label for="HallTicket"></label>
+        			<input type="text" class="form-control" id="hallTicket" name="htno" placeholder="htno">
+        		</div>
+        		<div class="form-group">
+        			<label class="form-check-label">
+        			<input class="form-check-input" type="checkbox">Remember me
+        		</label>
+        		</div>
+        		<button type="submit"  class="btn btn-primary">Submit</button>
+        		
+        	</form>
+          <a href="#">forgot hallticket</a> 
+        </div>
+
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+	</article>
+</section>
+<br />
+<section class="bg-primary">
+	<article class="py-5 text-center">
+		<div>
+			<h1 class="display-4">Contact Us</h1>
+			<h3>+91 9849664142 </h3>
+			<button class="btn btn-warning">Contact Now</button>
+		</div>
+	
+	</article>
+</section>
+<section>
+  <div>
+    <form>
+      <button type="submit"  class="btn btn-primary" style="left: 50%;padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease; color:#000;
+  text-decoration: none;"><a href="#navbarSupportedContent" style="color: #fff;">^</a></button>
+    </form>
+  </div>
+</section>
+<footer>
+	<p class="text-center bg-dark text-white">@copyright www.scit.ac.in/ </p>
+</footer>
+<script> 
+var preloader = document.getElementById('loading');
+function myFunction(){
+	preloader.style.display = 'none';
+}
+</script>
+<script type="text/javascript">
+  function searchit(){
+    document.getElementById("hp").href=(("https://www.google.com/search?q=")+ (document.getElementById("linkit").value));
+  }
+</script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

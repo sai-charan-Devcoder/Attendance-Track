@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sree Chaitanya Institute Of Technological Sciences </title>
+  <link rel="shortcut icon" href="img/images (1).jpeg">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#loading{
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			background:#fff url('ajax-loader.gif') no-repeat center; 
+
+			z-index: 99999;
+		}
+  html{
+    scroll-behavior: smooth;
+  }
+  </style>
+</head>
+<body onload="myFunction()">
+	<div id="loading"></div>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ 
+  <a class="navbar-brand" href="index.html">Sree Chaitanya Institute Of Technological Sciences 
+  	<img src="img/images (1).jpeg" alt="Scits" style="width: 40px;">
+  	<p class="nav-item"><span class="navbar-text"><h6 style="color: white;">Approved by AICTE New Delhi, Affiliated to JNTUH, Hyderabad, LMD Colony,Thimmapoor, Karimagar, 5050527, TS</h6></span></p>
+  	
+  
+  </a>
+  
+  
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Student Cell<span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="about.html">Institution</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="developed_by.html">Developed By</a>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>-->
+    </ul>
+    
+  </div>
+</nav>
+<!--end of nav bar-->
+
+<section>
+     <div class="container-fluid">
+    <h1 class="text-center text-capitalize pt-5">Student's Section</h1>
+    <h4 class="text-center text-capitalize pt-5">At SREE CHAITANYA INSTITUTE OF TECHNOLOGICAL SCIENCES, you as a student will find the most conductive atmosphere for dynamic and focused learning.</h4>
+    <hr class="w-25 mx-auto">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12">
+      <img src="img/robotics.jpeg" class="img-fluid">
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-12">
+      <p>
+        At SREE CHAITANYA INSTITUTE OF TECHNOLOGICAL SCIENCES, teaching is highly practical and industry-focussed as it is evolved through constant interaction with leading professionals while our placement cell will help you find your dream placement. In an environment-friendly campus, you will be mentored by a distinguished faculty and meet brightest minds from across the country as your classmates.
+You will be encouraged to participate not only in all indoor activities but also in events organised by other Institutions of national repute.
+At SCITS campus, you will experience features of excellence in every aspect.
+
+The vision behind this Student’s Section is to provide a single platform to the students to get all the information (mandatory & relevant). This section is regularly updated and you are advised to follow the section on a regular basis.</p>
+         <br>
+         <br>
+        
+    </div>
+  </div>
+</div>
+</section>
+<br>
+
+
+
+
+<section class="bg-primary">
+  <article class="py-5 text-center">
+    <div id="section1">
+      <h1 class="display-4">Student Portal</h1>
+      <h3>Student Login</h3>
+      <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Click Here</button>
+    </div>
+      <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Enter HallTicket No</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="connect.php" method="POST">
+            <div class="form-group">
+              <label for="HallTicket"></label>
+              Enter HallTicket No: <br>
+              <input type="text" class="form-control" id="hallTicket" name="htno" value="htno">
+            </div>
+            <div class="form-group">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox">Remember me
+            </label>
+            </div>
+            <button type="submit"  class="btn btn-primary">Submit</button>
+            
+          </form>
+          <a href="#">forgot hallticket</a>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+  </article>
+</section>
+<!--modal end-->
+
+<footer>
+  <p class="text-center bg-dark text-white">@copyright www.scit.ac.in/ </p>
+</footer>
+<script> 
+var preloader = document.getElementById('loading');
+function myFunction(){
+  preloader.style.display = 'none';
+}
+</script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
